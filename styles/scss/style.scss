@@ -1,0 +1,30 @@
+@import "./css-reset.scss";
+
+.wrapper {
+    padding: 0 130px;
+}
+
+html,
+body {
+    .header {
+        height: 60px;
+        background: #373a3c;
+        border-bottom: 3px solid #777;
+
+        font-family: 'Helvetica Neue';
+        font-size: 16px;
+        line-height: 16px;
+        color: #fff;
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+            .header__logo {
+                margin: 15px 0;
+            }
+            .header__menu {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}
